@@ -1,5 +1,6 @@
-job: macOS
+jobs:
+- job: macOS
 pool:
-vmImage: 'macOS-latest'
-steps:
-script: echo hello from macOS
+    vmImage: 'macOS-latest'
+    steps:
+    -script: echo hello from macOS
